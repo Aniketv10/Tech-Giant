@@ -1,0 +1,196 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+.main{
+    width:100%;
+    background: linear-gradient(to top,rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url('https://c4.wallpaperflare.com/wallpaper/9/519/764/mountains-best-for-desktop-background-wallpaper-preview.jpg');
+    background-position: center;
+    background-size: cover;
+    height: 110vh;
+}
+.navbar{
+    width: 1200px;
+    height : 75px;
+    margin: auto;
+}
+.icon{
+    width: 250px;
+    float: left;
+    height: 70px;
+
+}
+.logo{
+    color: #E74C3C;
+    font-size: 40px;
+    font-family: Arial;
+    padding-left: 20px;
+    float: left;
+    padding-top: 35px;
+
+}
+.menu{
+    padding-top: 25px;
+    width: 350px;
+    float: right;
+    height: 70px;
+
+}
+ul{
+    float: left;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+ul li{
+    margin-right: 62px;
+    font-size: 14px;
+    list-style: none;
+    margin-top: 27px;
+}
+ul li a{
+    text-decoration: none;
+    color: aliceblue;
+    font-weight: bold;
+    font-family: Arial;
+    transition: none;
+}
+ul li a:hover{
+    color: #E74C3C;
+}
+.content{
+    width: 1200px;
+    height: auto;
+    padding-top: 65px;
+    margin: auto;
+    position: relative;
+    color: aliceblue;
+    float: left;
+}
+.content .par{
+    padding-top: 15px;
+    line-height: 30px;
+    letter-spacing: 2px;
+    font-family: Arial;
+    /* letter-spacing: 1.2px;
+    line-height: 30px; */
+}
+.content .h1{
+    font-family: 'Times New Roman';
+    letter-spacing: 2px;
+    font-size: 50px;
+}
+.content .cn{
+    margin-top: 15px;
+    width: 160px;
+    height: 45px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    margin-left: auto;
+    background: #E74C3C;
+    cursor: pointer;
+    font-size: 20px;
+    border: none;
+    transition: width 2s;
+}
+.content .cn a{
+    text-decoration: none;
+    color: #000;
+    transition: .4s ease;
+}
+.cn:hover{
+    width: 280px;
+    background-color: white;
+}
+.content span{
+    color: #E74C3C;
+}
+.form{
+    box-sizing: border-box;
+    width: 300px;
+    height: 410px;
+    background: linear-gradient(to top,#17202A,#17202A);
+    position: absolute;
+    top: 115px;
+    left: 920px;
+    border-radius: 15px;
+    padding: 25px;
+    border: 1px solid #fff;
+}
+.form h2{
+    
+    font-family: sans-serif;
+    width: 150px;
+    margin-left: 75px;
+    color: #fff;
+    font-size: 25px;
+    margin-bottom: 10px;
+    padding: 10px;
+
+}.form input{
+    width: 240px;
+    height: 35px;
+    align-content: center;
+    background: transparent;
+    border-radius: 4px;
+    border-bottom: 1px solid #E74C3C ;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    font-size: 15px;
+    letter-spacing: 1px;
+    color: #fff;
+    font-family: sans-serif;
+    margin-top:30px ;
+    margin-left: 8px;
+}
+
+.form input:focus{
+    outline: none;
+}
+::placeholder{
+    color: #fff;
+    font-family: Arial;
+}
+.btnnn{
+    width: 240px;
+    height: 40px;
+    background: #E74C3C;
+    border: none;
+    margin-top: 30px;
+    font-size: 18px;
+    margin-left: 8px;
+    border-radius: 10px;
+    cursor: pointer;
+    color: #fff;
+}
+.btnnn a{
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+    /* transition: .4s ease; */
+}
+.btnnn:hover{
+    background-color: #fff;
+    color: #E74C3C;
+    
+}
+
+.form .link{
+    font-family: 'Arial';
+    color: #fff;
+    font-size: 17px;
+    padding-top: 20px;
+    text-align: center;
+}
+
+.from .link a{
+    text-decoration: none;
+    color: #E74C3C;
+    text-align: center;
+}
+
+
+
